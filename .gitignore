@@ -1,0 +1,18 @@
+# Local runtime artifacts generated while testing the extracted agent
+local-agent-2026/.env
+local-agent-2026/.env.bak
+local-agent-2026/.venv/
+local-agent-2026/.pytest_cache/
+local-agent-2026/**/__pycache__/
+local-agent-2026/logs/
+local-agent-2026/run/
+local-agent-2026/backups/
+local-agent-2026/rag_store/
+local-agent-2026/memory/
+local-agent-2026/workspace/
+local-agent-2026/support_*.zip
+
+# Large model artifacts must stay outside git
+/models/
+*.gguf
+*.gguf.*
